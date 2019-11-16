@@ -1,0 +1,4 @@
+CC=gcc
+
+basic_sold: basic_sold.c basic_test.c
+	gcc basic_sold.c basic_test.c basic_sold.h -Wall -Wextra -pedantic -ansi -lm -O2
